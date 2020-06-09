@@ -4,6 +4,9 @@ class Person
 
 
   def initialize(values)
+    values.each do |k,v|
+      self.send("#{k}=", v)
+    end
   end
 
 end
