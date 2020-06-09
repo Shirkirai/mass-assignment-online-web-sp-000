@@ -1,3 +1,2 @@
-class Person
-  #your code here
+class Person 
 end
