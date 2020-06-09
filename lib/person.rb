@@ -4,5 +4,6 @@ class Person
 
 
   def initialize(values)
+  end
 
 end
